@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>个人简历</title>
+  <style type="text/css">
+  	
+body{
+ 
+  font-family: Microsoft Yahei,Arial;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 410488 */
+  src: url('//at.alicdn.com/t/font_410488_itts09m4ycxiggb9.eot');
+  src: url('//at.alicdn.com/t/font_410488_itts09m4ycxiggb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_410488_itts09m4ycxiggb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_410488_itts09m4ycxiggb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_410488_itts09m4ycxiggb9.svg#iconfont') format('svg');
+}
+.wrapper {
+  width: 800px;
+  margin: 20px auto;
+  padding: 95px 30px 90px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #c1c1c1;
+  border-radius: 2px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.contacts {
+  margin-top: -10px;
+  padding-left: 0px;
+}
+span{
+  font-family: iconfont;
+  margin: 0 5px;
+}
+ul,li,h3,a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+.header>.lside {
+  display: flex;
+  align-items: center;
+}
+.information>h1{
+  font-size: 2.6em;
+  font-weight: 100;
+  color: #666;
+}
+.lside .line{
+  /*display: block;
+  height: 78px;
+  border-left: 2px solid #f1f1f1;
+  transform: rotate(45deg);
+  position: relative;
+  left:30px;
+  top: 13px;*/
+}
+.header .left {
+  font-size: 22px;
+  position: relative;
+  color: #f1f1f1;
+  left: 20px;
+  top: 22px;
+}
+.header .right{
+  font-size: 22px;
+  position: relative;
+  color: #f1f1f1;
+  left: 57px;
+  bottom: 55px;
+}
+.information {
+   margin-left: 5px;
+}
+.lside>.information>p,h1 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+.lside>.information>p{
+  font-size: 0.8em;
+}
+h3 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  width: 500px;
+  padding: 0 0 10px 0;
+}
+.header>.rside>h3 {
+  width: 300px;
+  border-bottom: 3px solid #000;
+}
+.experience span,.eduction span {
+  color: #666;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer>.rside>.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer h3 {
+  margin-left: 40px;
+  border-bottom: 2px solid #ccc;
+  width: 335px;
+}
+.footer li {
+  margin: 10px;
+}
+.job,.edu {
+  margin-left: 40px;
+}
+.lable-1 {
+  width:8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #666;
+  float: left;
+  position: relative;
+  left: -4.3%;
+  top: 8px;
+}
+.lable-2-1,.lable-2-2,.lable-2-3,.lable-2-4 {
+  background-color: #666;
+  width:2px;
+  float: left;
+  position: relative;
+  left: -5%;
+  top: 8px;
+}
+.lable-2-1 {
+  height: 63px;
+}
+.lable-2-2 {
+  height: 63px;
+}
+.lable-2-3 {
+  height: 42px;
+}
+.lable-2-4 {
+  height: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="lside">
+        <div class="pic">           <!-- 头像 -->
+          <div class="box" >
+            <img src="./p.jpg" style="width:120px; height:120px; border-radius:100%; overflow:hidden;">
+          </div>
+        </div>                      <!-- 头像 -->
+        <div class="information">
+          <h1>李泰</h1>
+          <p> WEB前端 工程师 & 实习</p>
+        </div>
+      </div>
+      <div class="rside">
+        <h3>个人信息</h3>
+        <ul class="contacts">
+          <li><span>地址：     </span>陕西西安市 软件公寓</li>
+          <li><span>电话：     </span>15029237456</li>
+          <li><span>邮箱：     </span>15029237456@163.com</li>
+          <li><span>笔记： </span><a href="https://www.jianshu.com/u/c6741bbce0aa">http://https://www.jianshu.com/u/c6741bbce0aa</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="body">
+      <ul class="experience">
+        <h3>工作经历</h3>
+        <li class="job 2"><!-- 比亚迪汽车-座椅厂-工艺工程师 -->
+          <div class="lable-1"></div>
+          <div class="lable-2-2"></div>
+          <b>工艺工程师</b><span>  2016~2017/BYD 比亚迪汽车西安有限公司</span>
+          <ul>
+            <li>
+              1. 负责产品的立项时样品的设计和制作，做出产品制作的技术规格和要求等;
+            </li>
+            <li>
+              2. 负责跟进产品量产工作、处理相关技术难点 
+            </li>
+          </ul>
+        </li>
+        <li class="job 1">
+          <div class="lable-1"></div>
+          <div class="lable-2-1"></div>
+          <b>质量分析员</b><span> 2015~2016/C&U 上海人本集团 </span><!-- 上海人本集团-质保科-技术员 --> 
+          <ul>
+            <li>
+              1. 负责产品先期对接、中期质量检测标准制定、后期产品质量反馈等；
+            </li>
+            <li>2. 负责其他相关工艺工的作等；
+            </li>
+          </ul> 
+        </li>
+      </ul>
+      <ul class="eduction">
+        <h3>教育经历</h3>
+        <li class="edu"><!-- 大学 -->
+          <div class="lable-1"></div>
+          <div class="lable-2-3"></div>
+          <b>西安电子科技大学</b><span>2011-2015</span>
+          <ul>
+            <li>
+              学习素描，设计，结构力学，计算机基础，3dMAX等
+            </li>
+          </ul>
+        </li>
+        <li class="edu"><!-- 高中 -->
+          <div class="lable-1"></div>
+          <div class="lable-2-4"></div>
+          <b>沈丘第二高级中学</b><span>2008-2011</span>
+        </li>
+      </ul>
+      <ul class="experience">
+        <h3>项目经历</h3>
+        <li class="job 1">
+          <div class="lable-1"></div>
+          <div class="lable-2-1"></div>
+          <b>静态页面</b>
+          <ul>
+            <li>
+              1. 使用html和css设计制作静态网页；
+            </li>
+            <li>2.页面连接：https://feartercaps.github.io/task15/
+            </li>
+          </ul>
+          <div class="lable-1"></div>
+          <div class="lable-2-3"></div>
+          <b>js练习</b>
+          <ul>
+            <li>
+              1. 使用js制作简单的轮播图等；
+            </li>
+            <li>
+            </li>
+          </ul>
+          <div class="lable-1"></div>
+          <div class="lable-2-3"></div>
+           <b>js制作简单贪吃蛇</b>
+          <ul>
+            <li>
+              1. 根据js原理制作简单的网页小游戏贪吃蛇；
+            </li>
+            <li>
+            </li>
+          </ul>
+    </div>
+    <div class="footer">
+      <div class="lside">
+        <h3>个人技能</h3>
+        <ul class="list left">
+            <li>
+              <span>&#xe67f;</span><b>掌握html & css</b>
+            </li>
+            <li>
+              <span>&#xe67f;</span><b>了解javascript、JQuery、PHP</b> 
+            </li>
+            <li>
+              <span>&#xe67f;</span><b>了解photoshop</b>
+            </li>
+            <li>
+              <span>&#xe67f;</span><b>掌握3D-Max & Keyshot等三维制图软件</b>
+            </li> 
+        </ul>
+      </div>
+      <div class="rside">
+        <h3>特长及性格</h3>
+       <ul class="list right">
+         <li>
+          <span>&#xe67f;</span><b>打篮球 篮球队队长，公司业余比赛水平</b>
+        </li>
+        <li>
+         <span>&#xe67f;</span><b>踢足球 公司业余比赛水平</b> 
+        </li>
+        <li>
+          <span>&#xe67f;</span><b>性格特点上，直率诚实、有责任感、有想象力，团队荣誉感强</b>
+        </li>
+       </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
